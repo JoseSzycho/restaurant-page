@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant page for practice javascript and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseSzycho/restaurant-page.git"
+  },
+  "author": "Jose Szychowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseSzycho/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/JoseSzycho/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

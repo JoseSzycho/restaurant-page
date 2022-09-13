@@ -108,17 +108,57 @@ li{
     border-radius: 3px;
 }
 
-.content-container{
+.content-container, .menu{
     margin-top: 1rem;
     width: 50vw;
     padding: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.548);
-    border-radius: 4px;
-    
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 4px; 
 }
 
-p{
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    width: 50vw;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 4px; 
+}
+
+p, h2{
     color: #b4c292bb;
     font-size: 1.3rem;
     font-weight: 500;
+}
+
+.home-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.contact-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.information-card{
+    display: flex;
+}
+
+.dish{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: #b4c29256;
+    border-radius: 3px;
+}
+
+.dish img{
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: center;
 }
